@@ -1,0 +1,37 @@
+.letter-by-letter {
+    white-space: pre-line;
+}
+
+#output {
+    font-size: 75px;
+    color: rgb(190, 14, 14);
+}
+
+#info-output {
+    font-size: 20px;
+    color: rgb(190, 14, 14);
+}
+
+/* Add this style to hide the image */     
+.Hm {
+    display: none;
+}
+.center-text{ 
+    text-align: center;
+}
+.PressStart-Font{
+    font-family: "Press Start 2P", "consolas","sans-serif";
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the height of the body to 100% of the viewport height */
+}
+hr {
+    border-color: rgb(190, 14, 14); /* Color */
+    border-style: dotted;   /* Style: solid, dashed, dotted, etc. */
+    border-width: 5px;     /* Width in pixels, em, rem, etc. */
+    margin: 20px 0 45.999px;        /* Set top and bottom margin */
+    width: 98vw;          /* Make the hr span the entire viewport width */
+}

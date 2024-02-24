@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Server Undergoing Maintenace.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anta&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap">
+    <title>Project Atlas</title>
+</head>
+
+<body style="background-color: black;">
+    <div class="center-text PressStart-Font">
+        <h1 class="centered-text letter-by-letter" id="output"></h1>
+        <hr>
+        <a href="Caeser.html" target="_blank" style="color: black;">
+            <p style="color: black;">
+                <p style="font-size: 0.001px;">PR</p>
+            </p>
+        </a>
+        <a href="Server Undergoing Maintenace.html" target="_blank" style="color: black;">
+            <h1 class="centered-text letter-by-letter" id="info-output"></h1>
+        </a>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var serverText = "Server Undergoing Maintenance";
+            var infoText = "For More Info, Contact PROJECT ATLAS";
+            var output = document.getElementById("output");
+            var infoOutput = document.getElementById("info-output");
+
+            function displayText(text, element, delay = 0) {
+                var index = 0;
+                var interval = setInterval(function () {
+                    element.textContent += text[index];
+                    index++;
+                    if (index === text.length) {
+                        clearInterval(interval);
+                    }
+                }, 47 + delay);
+            }
+
+            displayText(serverText, output);
+
+            setTimeout(function () {
+                displayText(infoText, infoOutput);
+            }, 2500);
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // Create and append multiple images with the Hm (HiddenImage) class
+            var images = [
+                'Image/Empirical Probability Case-01.png',
+                'Image/Empirical Probability Case-02.png',
+                'Image/Empirical Probability Case-03.png',
+                'Image/Empirical Probability Case-04.png',
+                'Image/Empirical Probability Case-05.png',
+                'Image/Empirical Probability Case-06.png',
+                // Add more image paths as needed
+            ];
+
+            images.forEach(function (src) {
+                var img = new Image();
+                img.src = src;
+                img.className = 'Hm';
+                document.body.appendChild(img);
+            });
+        });
+    </script>
+</body>
+
+</html>

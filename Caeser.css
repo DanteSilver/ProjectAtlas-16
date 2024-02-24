@@ -1,0 +1,49 @@
+.center-text{
+    text-align: justify;
+}
+
+.center-container 
+{
+    display: flex; 
+    justify-content: center; 
+    align-items: justify; /*Display top sentence*/
+    /*height: 100vh;*/
+    text-align: justify; /*Set the sentence to justify*/
+}
+
+.text-container {
+    width: 1800px;
+}
+
+ /* Add this style to create a square shape */
+.square-container {
+    position: relative;
+}
+
+.square-shape-PL {
+    width: 50px;
+    height: 15px;
+    background-color: transparent; /* You can change the color */
+    position: absolute;
+    top: 52px;
+    left: -250px; /* Adjust the left position as needed */
+    cursor: pointer; /* Set cursor to pointer for a clickable feel*/
+}
+
+.square-shape-PR {
+    width: 50px;
+    height: 15px;
+    background-color: transparent; /* You can change the color */
+    position: absolute;
+    top: 12px;
+    left: 2000px; /* Adjust the left position as needed */
+    cursor: default; /* Set cursor to pointer for a clickable feel*/
+}
+
+/*Margin=Space outside boundary of element | Padding=Space inside boundary of element*/
+body {
+    margin: 0; padding: 0;
+} 
+p{
+    font-size: 33px;
+}

@@ -1,0 +1,15 @@
+/*
+comes an chose the font you like from the font library made by yours truly
+*/
+
+/*Pixel Sans font style*/
+/*<link href="https://fonts.googleapis.com/css2?family=Anta&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">*/ 
+.Pixelify-Font{font-family: "Pixelify Sans","consolas","sans-serif";} 
+
+/*Press Start font style*/
+/*<link href="https://fonts.googleapis.com/css2?family=Anta&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap" rel="stylesheet">*/
+.PressStart-Font{font-family: "Press Start 2P", "consolas","sans-serif";}
+
+/*Anta font style*/
+/*<link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet*/
+.Anta-Font{font-family: "Anta","consolas","sans-serif";}
